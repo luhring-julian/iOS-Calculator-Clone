@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iOS Calculator Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <span id="display">0</span>
+        </div><!--display-->
+        <div class="row">
+            <button class="btn functions" onclick="clearDisplay()">AC</button>
+            <button class="btn functions" onclick="changeSignal()">&plusmn;</button>
+            <button class="btn functions" onclick="percentage()">&percnt;</button>
+            <button class="btn operators" onclick="appendOperator('/')">&divide;</button>
+        </div><!--row-->
+        <div class="row">
+            <button class="btn numbers" onclick="appendNumber('7')">7</button>
+            <button class="btn numbers" onclick="appendNumber('8')">8</button>
+            <button class="btn numbers" onclick="appendNumber('9')">9</button>
+            <button class="btn operators" onclick="appendOperator('x')">&times;</button>
+        </div><!--row-->
+        <div class="row">
+            <button class="btn numbers" onclick="appendNumber('4')">4</button>
+            <button class="btn numbers" onclick="appendNumber('5')">5</button>
+            <button class="btn numbers" onclick="appendNumber('6')">6</button>
+            <button class="btn operators" onclick="appendOperator('-')">&minus;</button>
+        </div><!--row-->
+        <div class="row">
+            <button class="btn numbers" onclick="appendNumber('1')">1</button>
+            <button class="btn numbers" onclick="appendNumber('2')">2</button>
+            <button class="btn numbers" onclick="appendNumber('3')">3</button>
+            <button class="btn operators" onclick="appendOperator('+')">&plus;</button>
+        </div><!--row-->
+        <div class="row">
+            <button class="btn numbers zero" onclick="appendNumber('0')">0</button>
+            <button class="btn numbers" onclick="appendNumber('.')">,</button>
+            <button class="btn operators" onclick="calculateResult()">&equals;</button>
+        </div><!--row-->
+    </div><!--calculator-->
+</body>
+</html>
