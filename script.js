@@ -1,3 +1,120 @@
+//
+// Clone Calculadora iOS
+//
+
+//Definindo Variáveis
+let valorDisplay = '0';
+let operacao = '';
+let valorAnterior = 0;
+
+
+//Funções
+//
+//
+//Atualizar o Display
+function atualizaDisplay() {
+  const display = document.getElementById('display');
+  display.textContent = valorDisplay;
+}
+
+//Inserir os números
+function inserirNumero(num) {
+  if(valorDisplay === '0') {
+    valorDisplay = num;
+  }else {
+    valorDisplay += num;
+  }
+  atualizaDisplay();
+}
+
+//Limpar o Display
+function limpaDisplay() {
+  valorDisplay = '0';
+  operacao = '';
+  valorAnterior = 0;
+  atualizaDisplay();
+}
+
+//Mudança de Sinal
+function mudaSinal() {
+  valorDisplay = valorDisplay * -1;
+  atualizaDisplay();
+}
+
+//Calculo de Porcentagem
+function porcent() {
+  valorDisplay = valorDisplay / 100;
+  atualizaDisplay();
+}
+
+//Verifica se existe um operador
+function operador(op) {
+  if(operacao != '') {
+    resultado();
+  }
+  operacao = op;
+  valorAnterior = parseFloat(valorDisplay);
+  valorDisplay = '0';
+  atualizaDisplay();
+}
+
+//Cálculo do Resultado
+function resultado() {
+  const valorAtual = parseFloat(valorDisplay);
+  switch (operacao) {
+    case '/':
+      valorDisplay = (valorAnterior / valorAtual).toString();
+      break;
+
+    case 'x':
+      valorDisplay = (valorAnterior * valorAtual).toString();
+      break;
+
+    case '-':
+      valorDisplay = (valorAnterior - valorAtual).toString();
+      break;
+      
+    case '+':
+      valorDisplay = (valorAnterior + valorAtual).toString();
+      break;
+  
+    default:
+      break;
+  }
+  operacao = '';
+  atualizaDisplay();
+}
+
+//Chamando Função para atualizar tela
+atualizaDisplay();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let displayValue = '0';
 let operator = '';
 let prevValue = 0;
