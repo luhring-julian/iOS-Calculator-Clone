@@ -1,10 +1,8 @@
-My first JS project
+Meu primeiro projeto JS 100% autoral
 
-iOS Calculator clone
+Todos os números e operações estão funcionais.
 
-All numbers and operators are functional.
+Pode haver algum erro, mas eu não descobri como resolvê-lo (ainda).
 
-Could have some issues, but I don't figure out how to solve them (yet).
-
-2023-08-03 - Code optimization update
-2023-08-05 - Code identation update
+2023-08-03 - Atualização: otimização do código
+2023-08-05 - Atualização: organizando identação do código
