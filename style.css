@@ -1,79 +1,78 @@
 /*RESET*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 /*ESTILOS*/
-body{
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    height: 100vh;
-    background-color: #1c1c1c;
-    
+body {
+	display: flex;
+	justify-content: center;
+	align-items: end;
+	height: 100vh;
+	background-color: #1c1c1c;
 }
 
-#calculadora{
-    width: 300px;
-    margin: 0 2% 10px;
-    overflow: hidden;
+#calculadora {
+	width: 300px;
+	margin: 0 2% 10px;
+	overflow: hidden;
 }
 
-.display{
-    width: 100%;
-    height: 70px;
-    text-align: right;
-    padding-right: 12px;
+.display {
+	width: 100%;
+	height: 70px;
+	text-align: right;
+	padding-right: 12px;
 }
 
-#display{
-    width: 100%;
-    border: none;
-    background-color: #1c1c1c;
-    color: #fff;
-    font-size: 70px;
+#display {
+	width: 100%;
+	border: none;
+	background-color: #1c1c1c;
+	color: #fff;
+	font-size: 70px;
 }
 
-#teclado{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 2%;
-    padding-top: 10px;
+#teclado {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 2%;
+	padding-top: 10px;
 }
 
-button{
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
-    border: none;
-    font-size: 30px;
-    margin: 3px 1px;
-    cursor: pointer;
+button {
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	border: none;
+	font-size: 30px;
+	margin: 3px 1px;
+	cursor: pointer;
 }
 
 button.operador,
-button.igual{
-    background-color: #ff9500;
-    color: #fff;
+button.igual {
+	background-color: #ff9500;
+	color: #fff;
 }
 
-button.funcao{
-    background-color: #d4d4d2;
-    color: #000;
+button.funcao {
+	background-color: #d4d4d2;
+	color: #000;
 }
 
 button.num,
-button.ponto{
-    background-color: #505050;
-    color: #fff;
+button.ponto {
+	background-color: #505050;
+	color: #fff;
 }
 
-.zero{
-    width: 132px;
-    border-radius: 66px;
-    padding-left: 20px;
-    text-align: left;
+.zero {
+	width: 132px;
+	border-radius: 66px;
+	padding-left: 20px;
+	text-align: left;
 }

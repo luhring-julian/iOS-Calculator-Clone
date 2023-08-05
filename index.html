@@ -1,39 +1,146 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Julian Lühring - J.Luhring">
-    <title>iOS Calculator Clone | J.Luhring</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-</head>
-<body>
-    <div id="calculadora">
-        <div class="display">
-            <span id="display">0</span>
-        </div><!--display-->
-        <div id="teclado">
-            <button class="operador funcao" onclick="limpaDisplay()">AC</button>
-            <button class="operador funcao" onclick="mudaSinal()">&plusmn;</button>
-            <button class="operador funcao" onclick="porcent()">&percnt;</button>
-            <button class="operador" onclick="operador('/')">&divide;</button>
-            <button class="num" onclick="inserirNumero('7')">7</button>
-            <button class="num" onclick="inserirNumero('8')">8</button>
-            <button class="num" onclick="inserirNumero('9')">9</button>
-            <button class="operador" onclick="operador('x')">&times;</button>
-            <button class="num" onclick="inserirNumero('4')">4</button>
-            <button class="num" onclick="inserirNumero('5')">5</button>
-            <button class="num" onclick="inserirNumero('6')">6</button>
-            <button class="operador" onclick="operador('-')">&minus;</button>
-            <button class="num" onclick="inserirNumero('1')">1</button>
-            <button class="num" onclick="inserirNumero('2')">2</button>
-            <button class="num" onclick="inserirNumero('3')">3</button>
-            <button class="operador" onclick="operador('+')">&plus;</button>
-            <button class="num zero" onclick="inserirNumero('0')">0</button>
-            <button class="ponto" onclick="inserirNumero('.')">,</button>
-            <button class="igual" onclick="resultado()">&equals;</button>
-        </div><!--teclado-->
-    </div><!--calculadora-->
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<meta
+			name="author"
+			content="Julian Lühring - J.Luhring"
+		/>
+		<title>iOS Calculator Clone | J.Luhring</title>
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div id="calculadora">
+			<div class="display">
+				<span id="display">0</span>
+			</div>
+			<!--display-->
+			<div id="teclado">
+				<button
+					class="operador funcao"
+					onclick="limpaDisplay()"
+				>
+					AC
+				</button>
+				<button
+					class="operador funcao"
+					onclick="mudaSinal()"
+				>
+					&plusmn;
+				</button>
+				<button
+					class="operador funcao"
+					onclick="porcent()"
+				>
+					&percnt;
+				</button>
+				<button
+					class="operador"
+					onclick="operador('/')"
+				>
+					&divide;
+				</button>
+				<button
+					class="num"
+					onclick="inserirNumero('7')"
+				>
+					7
+				</button>
+				<button
+					class="num"
+					onclick="inserirNumero('8')"
+				>
+					8
+				</button>
+				<button
+					class="num"
+					onclick="inserirNumero('9')"
+				>
+					9
+				</button>
+				<button
+					class="operador"
+					onclick="operador('x')"
+				>
+					&times;
+				</button>
+				<button
+					class="num"
+					onclick="inserirNumero('4')"
+				>
+					4
+				</button>
+				<button
+					class="num"
+					onclick="inserirNumero('5')"
+				>
+					5
+				</button>
+				<button
+					class="num"
+					onclick="inserirNumero('6')"
+				>
+					6
+				</button>
+				<button
+					class="operador"
+					onclick="operador('-')"
+				>
+					&minus;
+				</button>
+				<button
+					class="num"
+					onclick="inserirNumero('1')"
+				>
+					1
+				</button>
+				<button
+					class="num"
+					onclick="inserirNumero('2')"
+				>
+					2
+				</button>
+				<button
+					class="num"
+					onclick="inserirNumero('3')"
+				>
+					3
+				</button>
+				<button
+					class="operador"
+					onclick="operador('+')"
+				>
+					&plus;
+				</button>
+				<button
+					class="num zero"
+					onclick="inserirNumero('0')"
+				>
+					0
+				</button>
+				<button
+					class="ponto"
+					onclick="inserirNumero('.')"
+				>
+					,
+				</button>
+				<button
+					class="igual"
+					onclick="resultado()"
+				>
+					&equals;
+				</button>
+			</div>
+			<!--teclado-->
+		</div>
+		<!--calculadora-->
+	</body>
 </html>
