@@ -1,3 +1,5 @@
+## iOS Calculator Clone
+
 A basic clone from the iOS Calculator.
 
 This is my first project using JavaScript.
