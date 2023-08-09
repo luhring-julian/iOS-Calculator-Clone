@@ -1,8 +1,5 @@
-Meu primeiro projeto JS 100% autoral
+A basic clone from the iOS Calculator.
 
-Todos os números e operações estão funcionais.
+This is my first project using JavaScript.
 
-Pode haver algum erro, mas eu não descobri como resolvê-lo (ainda).
-
-2023-08-03 - Atualização: otimização do código
-2023-08-05 - Atualização: organizando identação do código
+Could be improved, specially the display CSS style, but I don't have figure out how (yet)
